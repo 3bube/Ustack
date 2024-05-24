@@ -18,8 +18,8 @@ function HeroSection() {
               loop={true}
               cursor
               cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={50}
+              typeSpeed={80}
+              deleteSpeed={70}
               delaySpeed={1000}
             />
           </span>

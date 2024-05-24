@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '/assets/pexels-canvastudio-3194519.jpg';
 
 const AboutUs = () => {
 
@@ -13,7 +14,7 @@ const AboutUs = () => {
         </header>
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
           <div className="lg:w-1/2 mr-3">
-            <img src={imgUrl} alt="About Us" className="rounded-lg shadow-lg w-full h-auto" />
+            <img src={Image} alt="About Us" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <h2 className="text-2xl font-semibold text-white">Our Story</h2>
