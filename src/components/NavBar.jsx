@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // Icon imports
+import { FaBars, FaTimes } from "react-icons/fa"; 
+import Image from '/assets/profile.png';
 
 const NavBar = () => {
   const navItems = [
@@ -15,13 +16,12 @@ const NavBar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   }
 
-  const logo = 'src/assets/profile.png'; 
 
   return (
     <nav className="sticky top-0 z-50 bg-[#0f0f0f] text-white py-3 shadow-md">
       <div className="container px-4 mx-auto flex justify-between items-center">
         <div className="flex items-center flex-shrink-0">
-          <img className="h-auto w-28 mr-2" src={logo} alt="Logo" />
+          <img className="h-auto w-28 mr-2" src={Image} alt="Logo" />
         </div>
         <div className="hidden lg:flex space-x-8">
           {navItems.map((item, index) => (
