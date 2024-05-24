@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
 
-    const imgUrl = 'public/pexels-canvastudio-3194519.jpg';
+    const imgUrl = 'src/assets/pexels-canvastudio-3194519.jpg';
 
   return (
     <section id='about' className=" py-12" aria-labelledby="about-us-heading">

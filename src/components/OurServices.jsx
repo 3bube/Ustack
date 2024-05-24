@@ -3,9 +3,9 @@ import ServiceCard from './ServiceCard';
 
 const OurServices = () => {
   const imgUrls = {
-    first: 'public/service.png',
-    second: 'public/seo.png',
-    third: 'public/logo-design.png',
+    first: 'src/assets/service.png',
+    second: 'src/assets/seo.png',
+    third: 'src/assets/logo-design.png',
   };
 
   const services = [

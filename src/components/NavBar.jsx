@@ -15,7 +15,7 @@ const NavBar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   }
 
-  const logo = '/profile.png'; // Adjust the logo path as necessary
+  const logo = 'src/assets/profile.png'; 
 
   return (
     <nav className="sticky top-0 z-50 bg-[#0f0f0f] text-white py-3 shadow-md">
